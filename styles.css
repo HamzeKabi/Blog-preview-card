@@ -11,18 +11,22 @@ body {
   text-align: center;
   height: 100vh;
   margin: 0;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .content-holder {
   height: auto;
-  width: 380px;
+  max-width: 380px;
+  min-width: 325px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0.5vw 1.2vh;
 }
 
 img {
-  padding: 22px;
+  width: 90%;
+  padding: 5%;
   border-radius: 35px;
 }
 
