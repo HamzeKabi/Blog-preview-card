@@ -14,10 +14,11 @@ body {
 }
 
 .content-holder {
-  height: 520px;
+  height: auto;
   width: 380px;
   background-color: white;
   border-radius: 15px;
+  box-shadow: 0.5vw 1.2vh;
 }
 
 img {
@@ -59,4 +60,19 @@ img {
   text-align: left;
   margin-left: 6%;
   margin-top: 4.3%;
+}
+
+.educator {
+  display: flex;
+}
+
+.educator-profile-picture {
+  width: 8.5%;
+  padding-right: 3%;
+}
+
+.educator-name {
+  font-family: figtree;
+  font-weight: 700;
+  margin-top: 8%;
 }
