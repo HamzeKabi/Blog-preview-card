@@ -21,9 +21,19 @@ body {
   min-width: 325px;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0.5vw 1.2vh;
+  box-shadow: 1.3vw 1.2vh;
 }
 
+@media only screen and (max-width: 376px) {
+  .content-holder {
+    height: auto;
+    max-width: 380px;
+    min-width: 325px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2vw 1.2vh;
+  }
+}
 img {
   width: 90%;
   padding: 5%;
@@ -32,11 +42,11 @@ img {
 
 .category-item {
   font-family: figtree;
-  font-weight: 800;
+  font-weight: 700;
   box-sizing: border-box;
-  width: 24%;
+  width: 23%;
   height: 12%;
-  margin-left: 6%;
+  margin-left: 5%;
   text-align: center;
   background-color: #F8CC47;
   padding: 2% 2.5%;
@@ -52,13 +62,14 @@ img {
 
 .heading {
   font-family: figtree;
-  font-size:27px;
+  font-size:160%;
   text-align: left;
   margin-left: 6%;
   margin-top: 4.3%;
 }
 
 .description {
+  font-size: 95%;
   color: #8C8C8C;
   font-family: figtree;
   text-align: left;
