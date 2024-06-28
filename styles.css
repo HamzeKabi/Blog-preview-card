@@ -1,11 +1,16 @@
+@font-face {
+  font-family: "figtree";
+  src: url("assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
 body {
   background-color: hsl(47, 88%, 63%);
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 100vh;
   margin: 0;
-  text-align: center;
 }
 
 .content-holder {
@@ -17,8 +22,41 @@ body {
 
 img {
   padding: 22px;
+  border-radius: 35px;
 }
 
 .category-item {
-  margin-top: 0px
+  font-family: figtree;
+  font-weight: 800;
+  box-sizing: border-box;
+  width: 24%;
+  height: 12%;
+  margin-left: 6%;
+  text-align: center;
+  background-color: #F8CC47;
+  padding: 2% 2.5%;
+  border-radius: 5px;
+}
+
+.date {
+  font-family: figtree;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 4.3%;
+}
+
+.heading {
+  font-family: figtree;
+  font-size:27px;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 4.3%;
+}
+
+.description {
+  color: #8C8C8C;
+  font-family: figtree;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 4.3%;
 }
