@@ -45,7 +45,7 @@ Users should be able to:
 ### What I learned
 - Interactivity using javascript
 - new css properties
-- Amount of space accupied by each element using developer tools panel of google chrome browser
+- Amount of space occupied by each element using developer tools panel of google chrome browser
 - Finding errors using developer tools panel of google chrome browser
 - Positive effects of using relative lengths instead of absolute lengths
 
