@@ -64,21 +64,15 @@ img {
   margin-top: 4.3%;
 }
 
-.heading-h3 {
+.heading {
   text-align: left;
-}
-
-.heading-a {
   color: black;
   font-family: figtree;
   font-size:140%;
   text-align: left;
   margin-left: 6%;
   margin-top: 4.3%;
-}
-
-.heading-a:active {
-  color: #F8CC47;
+  cursor: pointer;
 }
 
 .description {
@@ -102,5 +96,5 @@ img {
 .educator-name {
   font-family: figtree;
   font-weight: 700;
-  margin-top: 8%;
+  margin-top: 7%;
 }
